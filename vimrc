@@ -6,6 +6,7 @@ set softtabstop=2
 set expandtab
 set autoindent
 
+syntax on
 set number
 
 filetype plugin indent on

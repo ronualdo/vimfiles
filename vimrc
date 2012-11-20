@@ -1,5 +1,7 @@
-set tabstop=2
-set shiftwidth=8
+"indent settings
+set shiftwidth=2
+set softtabstop=2
 set expandtab
+set autoindent
 
 syntax on

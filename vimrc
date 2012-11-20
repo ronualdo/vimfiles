@@ -19,6 +19,10 @@ filetype plugin indent on
 "mapping
 map <F2> :NERDTreeToggle<CR>
 
+"CtrlP configuration
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
 "ruby configuration
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1

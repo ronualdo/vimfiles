@@ -6,6 +6,11 @@ set softtabstop=2
 set expandtab
 set autoindent
 
+" Turn backup off, since most stuff is in SVN, git et.c anyway...
+set nobackup
+set nowb
+set noswapfile
+
 syntax on
 set number
 

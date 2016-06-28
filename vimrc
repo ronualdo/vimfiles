@@ -11,21 +11,20 @@ set nobackup
 set nowb
 set noswapfile
 
+" general editor settings
 syntax on
 set number
-
 filetype plugin indent on
-
-"mapping
-map <F2> :NERDTreeToggle<CR>
-
-"CtrlP configuration
-let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP'
-
-"column limit configuration
 highlight ColorColumn ctermbg=5
 let &colorcolumn=81
+
+" NerdTree settings
+map <F2> :NERDTreeToggle<CR>
+let NERDTreeQuitOnOpen=1
+
+" CtrlP configuration
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
 
 "ruby configuration
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete

@@ -23,6 +23,10 @@ map <F2> :NERDTreeToggle<CR>
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
+"column limit configuration
+highlight ColorColumn ctermbg=5
+let &colorcolumn=81
+
 "ruby configuration
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1

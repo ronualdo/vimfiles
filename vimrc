@@ -16,7 +16,7 @@ syntax on
 set number
 filetype plugin indent on
 highlight ColorColumn ctermbg=5
-let &colorcolumn=81
+let &colorcolumn="81,".join(range(100,999),",")
 
 " NerdTree settings
 map <F2> :NERDTreeToggle<CR>

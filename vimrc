@@ -11,6 +11,10 @@ set nobackup
 set nowb
 set noswapfile
 
+" setting split openning
+set splitbelow
+set splitright
+
 " general editor settings
 syntax on
 set number

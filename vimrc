@@ -24,7 +24,12 @@ let NERDTreeQuitOnOpen=1
 
 " CtrlP configuration
 let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_cmd = 'CtrlPMixed'
+
+" Mapping <tab> to change navigate on tabs
+nmap <tab> :tabnext<CR>
+" Mapping control + <tab> to go to the previous tab
+nmap <S-tab> :tabprevious<CR>
 
 "ruby configuration
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
